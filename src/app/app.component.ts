@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'noutput';
+
+  parentSender : string = "Hello from parent component";
+  constructor() {
+
+  }
+
+  getData($event)
+  {
+      console.log($event);
+  }
 }
+
